@@ -16,7 +16,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22225617'))
 API_HASH = environ.get('API_HASH', 'ef16f7597376f1689663304c954e4493')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6148180329:AAGkh3ZCS_YE0G2COM3_Y7KZPj0xjhMNQQg")
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
