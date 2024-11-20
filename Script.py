@@ -331,7 +331,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🔊AUDIO: {languages}
 🎭Genres: {genres}
 📖Plot: {plot}
-💗𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘: ♻️@MrAK_LinkZ
+💗𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘: ♻️@MrAK_LinkZzz
 
 💻 𝐓𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝐅𝚒𝚕𝚎 & 𝐖ᴀᴛᴄʜ & 𝐃𝚒𝚛𝚎𝚌𝚝 𝐅ᴀꜱᴛ 𝐃𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝐋𝚒𝚗𝚔👇
 
@@ -339,15 +339,15 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-<a href='https://telegram.me/MrAK_LinkZ/3'>💁 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱</a>
+<a href='https://telegram.me/HowToDownload_Tutorial_MrAK/3'>💁 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱</a>
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-<a href='https://telegram.me/+g8WRwjUrCHE4OTA1'>🔆 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩</a>
+<a href='https://telegram.me/New_Movies_Request_Group_MrAK'>🔆 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩</a>
 
-<a href='https://whatsapp.com/channel/0029VaZbVwQGU3BJt3IfFr2Q'>❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a>
+<a href='https://whatsapp.com/channel/0029VambaJIBFLgb4wB11u07'>❤️𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a>
 
-<a href='https://telegram.me/MrAK_Weekly_Release'>𝐖𝐞𝐞𝐤𝐥𝐲 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐌𝐨𝐯𝐢𝐞𝐬</a>
+<a href='https://telegram.me/+5qxYQpqg8KY2ZmY1'>𝐖𝐞𝐞𝐤𝐥𝐲 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐝 𝐌𝐨𝐯𝐢𝐞𝐬</a>
 
-<a href='https://telegram.me/MrAK_LinkZ'>❤️𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a></b>
+<a href='https://telegram.me/MrAK_LinkZzz'>❤️𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a></b>
 """
     
 
