@@ -15,74 +15,74 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20902603'))
 API_HASH = environ.get('API_HASH', '79e5caa103a9e9fb0183390b4800845d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7329153168:AAF2H1nEYo2QoAro_a60zqf_fbnq4fLR640")
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/8cd764fbdf3ccd34abe22.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/8cd764fbdf3ccd34abe22.jpg")
+PICS = (environ.get('PICS', 'https://envs.sh/JJ4.jpg https://envs.sh/JJl.jpg https://envs.sh/JJk.jpg https://envs.sh/JJ8.jpg https://envs.sh/JJ7.jpg https://envs.sh/JJJ.jpg https://envs.sh/JJo.jpg https://envs.sh/JJr.jpg https://envs.sh/JJs.jpg https://envs.sh/JJ9.jpg https://envs.sh/JJv.jpg https://envs.sh/JJH.jpg https://envs.sh/JJg.jpg https://envs.sh/JJU.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/JJ1.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153df35e5a54.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
+CODE = (environ.get('CODE', 'https://envs.sh/JJV.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42'))
+STREAM_API = (environ.get('STREAM_API', 'bcb93413e5dd9aaf092ab03269420e6f928aae2c'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/MrAK_LinkZ/3'))
 
 #REFERAL
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '50')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002388101002'))
 
 # Admins, Channels & Users
-USERNAME = environ.get("USERNAME", "https://t.me/I_Am_MrAK")
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002329683513').split()] #Channel id for auto indexing ( make sure bot is admin )
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+USERNAME = environ.get("USERNAME", "https://t.me/Hinata_developer_bot")
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6283322330').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002473385674').split()] #Channel id for auto indexing ( make sure bot is admin )
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6283322330').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002329683513') #Channel / Group Id for force sub ( make sure bot is admin )
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6283322330').split()]
+auth_channel = environ.get('AUTH_CHANNEL', '-1002287141965') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001955218723') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002146500872') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002272627141') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002445619508') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@v2.iuhhumt.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "V2")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ganeshganesh177:17032009@sasukeuchiha.k21bh.mongodb.net/?retryWrites=true&w=majority&appName=Sasukeuchiha")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Sasukeuchiha")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/MrAK_LinkZ/3') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bcb93413e5dd9aaf092ab03269420e6f928aae2c')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 # Others
-WCHNL = environ.get('WCHNL', 'https://whatsapp.com/channel/0029VaZbVwQGU3BJt3IfFr2Q')
-WRM = environ.get('WRM', 'https://t.me/MrAK_Weekly_Release')
+WCHNL = environ.get('WCHNL', 'https://whatsapp.com/channel/0029Vaz8vJlDp2QBlKE0Ys1d')
+WRM = environ.get('WRM', 'https://t.me/+SQq_duP9u1hlYzk1')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/Movies_Request_Group_MrAK')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MrAK_LinkZ')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+IBeh5EjAo-JmYjA1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MrAK_LinkZ/3')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MrAK_LinkZ/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001921006090')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/Movies_Request_Group_MrAK') #Support group link ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002326500889')) #Log channel id ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+XfkbJaR1E-ljYTll') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -95,7 +95,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002473385674')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
