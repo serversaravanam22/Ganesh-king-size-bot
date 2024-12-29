@@ -58,5 +58,3 @@ pyromod
 colorama
 openai==0.27.0
 cinemagoer
-imdbpy
-
