@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20902603'))
 API_HASH = environ.get('API_HASH', '79e5caa103a9e9fb0183390b4800845d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7329153168:AAF2H1nEYo2QoAro_a60zqf_fbnq4fLR640")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7364128304:AAEZCl3x2TKLlxwPyCFmXV_uMP7SROJE0xw")
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
@@ -38,21 +38,21 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/MrAK_LinkZ/3'))
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '50')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002388101002'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002294126424'))
 
 # Admins, Channels & Users
 USERNAME = environ.get("USERNAME", "https://t.me/Hinata_developer_bot")
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6283322330 6762558871').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002473385674').split()] #Channel id for auto indexing ( make sure bot is admin )
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002294126424').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6283322330').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6283322330').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002366511179') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1002294126424') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002272627141') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002445619508') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002294126424') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002294126424') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
@@ -81,7 +81,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MrAK_LinkZ/3')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MrAK_LinkZ/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002290292905")) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002294126424")) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+XfkbJaR1E-ljYTll') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -94,8 +94,8 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1002290292905'))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002473385674')).split()]
+INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1002294126424'))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002294126424')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
